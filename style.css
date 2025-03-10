@@ -87,7 +87,12 @@
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.697); /*insert para a sombra para dentro*/
     background-size: cover; /*Como a img vai ficar distribuida*/
     background-position: center center;
-    background-attachment: fixed; /*insert para a sombra para dentro*/
+    background-attachment: fixed; 
+
+    /*A propriedade background-attachment do CSS define se a imagem de fundo de um elemento rola junto com o conteúdo ou permanece fixa na tela.
+    scroll (padrão): A imagem de fundo rola junto com o conteúdo.
+    fixed: A imagem de fundo fica fixa na tela enquanto o usuário rola a página.
+    local: A imagem de fundo rola junto com o conteúdo do elemento, mas não com a página inteira.*/
  }
 
  section.imagem > p{
@@ -111,7 +116,13 @@
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 3vw;
+    font-size: 1vw;
+ }
+
+ @media (max-width: 700px) {
+    footer {
+        font-size: 2vw;
+     }
  }
 
  footer > div{
