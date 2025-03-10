@@ -104,11 +104,11 @@
  }
 
  section#img01{
-    background-image: url('/imagens/flores.jpg');
+    background-image: url('imagens/flores.jpg');
  }
 
  section#img02{
-    background-image: url('/imagens/livro.jpg');
+    background-image: url('imagens/livro.jpg');
  }
 
  footer {
